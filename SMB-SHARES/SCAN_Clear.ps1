@@ -1,0 +1,1 @@
+Remove-Item "D:\SCAN\*" -Force -Recurse;
