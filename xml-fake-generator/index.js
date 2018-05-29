@@ -360,15 +360,15 @@ const random = {
   },
   username: () => {
     const usersLength = users.length;
-    const randomIndex = random.index(0, users.length);
+    const randomIndex = random.index(0, users.length - 1);
     return users[randomIndex];
   },
   jobType: () => {
-    const randomIndex = random.index(0, jobTypes.length);
+    const randomIndex = random.index(0, jobTypes.length - 1);
     return jobTypes[randomIndex];
   },
   ipAddress: () => {
-    const randomIndex = random.index(0, ipAddresses.length);
+    const randomIndex = random.index(0, ipAddresses.length - 1);
     return ipAddresses[randomIndex];
   }
 };
