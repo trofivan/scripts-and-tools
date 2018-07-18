@@ -388,7 +388,7 @@ const generateJobObject = fileIndex => ({
 });
 
 for (let day = 1; day < 30; day++) {
-  const folder = path.join(dataFolder, `2018-05-${day}-0001`);
+  const folder = path.join(dataFolder, `2018-09-${day}`);
   fs.mkdirSync(folder);
 
   const filesCount = random.index(800, 2000);
